@@ -4,7 +4,7 @@ _demo of key binding scene running in preview._
 ![demo](https://github.com/decentraland-scenes/key-binding/blob/main/screenshots/key-binding.gif)
 
 ## Description
-Using emote events as key bindings for switching between multiple paint colors can be expanding for something like weapon switching. To view the scene, please visit [here](https://key-binding.vercel.app/).
+Using emote events as key bindings for switching between multiple paint colors, which can be expanded for something like weapon switching. To view the scene, please visit [here](https://key-binding.vercel.app/).
 
 ## Instructions
 * Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. 
