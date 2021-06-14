@@ -34,6 +34,6 @@ $  dcl start
 
 ## Acknowledgements
 
-The following files were taken from https://freesound.org/:
+The following files were taken from https://freesound.org/
 - _splat.mp3_ modified from https://freesound.org/people/Breviceps/sounds/445109/
 - _switch.mp3_ modified from https://freesound.org/people/ryanconway/sounds/240800/
