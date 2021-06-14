@@ -1,4 +1,4 @@
-# Key Bindings
+# Key Binding
 _demo of key binding scene running in preview._
 
 ![demo](https://github.com/decentraland-scenes/key-binding/blob/main/screenshots/key-binding.gif)
