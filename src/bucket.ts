@@ -8,7 +8,8 @@ export class Bucket extends Entity {
   public yellowPaint = new Entity()
   public greenPaint = new Entity()
   public bluePaint = new Entity()
-  public purplePaint = new Entity()
+  public indigoPaint = new Entity()
+  public violetPaint = new Entity()
 
   constructor(transform: Transform) {
     super()
@@ -53,11 +54,17 @@ export class Bucket extends Entity {
     this.bluePaint.getComponent(Animator).addClip(new AnimationState("SwitchPaint", { looping: false }))
     this.bluePaint.setParent(this)
 
-    this.purplePaint.addComponent(new GLTFShape("models/bucketPurplePaint.glb"))
-    this.purplePaint.addComponent(new Transform())
-    this.purplePaint.addComponent(new Animator())
-    this.purplePaint.getComponent(Animator).addClip(new AnimationState("SwitchPaint", { looping: false }))
-    this.purplePaint.setParent(this)
+    this.indigoPaint.addComponent(new GLTFShape("models/bucketIndigoPaint.glb"))
+    this.indigoPaint.addComponent(new Transform())
+    this.indigoPaint.addComponent(new Animator())
+    this.indigoPaint.getComponent(Animator).addClip(new AnimationState("SwitchPaint", { looping: false }))
+    this.indigoPaint.setParent(this)
+
+    this.violetPaint.addComponent(new GLTFShape("models/bucketVioletPaint.glb"))
+    this.violetPaint.addComponent(new Transform())
+    this.violetPaint.addComponent(new Animator())
+    this.violetPaint.getComponent(Animator).addClip(new AnimationState("SwitchPaint", { looping: false }))
+    this.violetPaint.setParent(this)
   }
 
   // Switching paints (NEEDS REFACTORING)
@@ -68,37 +75,36 @@ export class Bucket extends Entity {
         this.redPaint.getComponent(Transform).scale.setAll(1)
         this.redPaint.getComponent(Animator).getClip("SwitchPaint").play(true)
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play red")
         break
       case 1:
         this.orangePaint.getComponent(Transform).scale.setAll(1)
         this.orangePaint.getComponent(Animator).getClip("SwitchPaint").play(true)
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play orange")
         break
       case 2:
         this.yellowPaint.getComponent(Transform).scale.setAll(1)
         this.yellowPaint.getComponent(Animator).getClip("SwitchPaint").play(true)
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play yellow")
         break
       case 3:
         this.greenPaint.getComponent(Transform).scale.setAll(1)
         this.greenPaint.getComponent(Animator).getClip("SwitchPaint").play(true)
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play green")
         break
       case 4:
         this.bluePaint.getComponent(Transform).scale.setAll(1)
         this.bluePaint.getComponent(Animator).getClip("SwitchPaint").play(true)  
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play blue")
         break
       case 5:
-        this.purplePaint.getComponent(Transform).scale.setAll(1)
-        this.purplePaint.getComponent(Animator).getClip("SwitchPaint").play(true)  
+        this.indigoPaint.getComponent(Transform).scale.setAll(1)
+        this.indigoPaint.getComponent(Animator).getClip("SwitchPaint").play(true)  
         this.getComponent(Animator).getClip("SwitchPaint").play(true)
-        log("play purple")
+        break
+      case 6:
+        this.violetPaint.getComponent(Transform).scale.setAll(1)
+        this.violetPaint.getComponent(Animator).getClip("SwitchPaint").play(true)  
+        this.getComponent(Animator).getClip("SwitchPaint").play(true)
         break
     }
   }
@@ -108,6 +114,7 @@ export class Bucket extends Entity {
     this.yellowPaint.getComponent(Transform).scale.setAll(0)
     this.greenPaint.getComponent(Transform).scale.setAll(0)
     this.bluePaint.getComponent(Transform).scale.setAll(0)
-    this.purplePaint.getComponent(Transform).scale.setAll(0)
+    this.indigoPaint.getComponent(Transform).scale.setAll(0)
+    this.violetPaint.getComponent(Transform).scale.setAll(0)
   }
 }

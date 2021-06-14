@@ -5,7 +5,8 @@ export const paintColors: GLTFShape[] = [
   new GLTFShape("models/yellowPaint.glb"),
   new GLTFShape("models/greenPaint.glb"),
   new GLTFShape("models/bluePaint.glb"),
-  new GLTFShape("models/purplePaint.glb")
+  new GLTFShape("models/indigoPaint.glb"),
+  new GLTFShape("models/violetPaint.glb")
 ]
 
 export class PaintManager {

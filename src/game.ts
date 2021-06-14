@@ -88,9 +88,9 @@ onPlayerExpressionObservable.add(({ expressionId }) => {
     case "money":
       PaintManager.colorIndex = 5
       break
-    // case "kiss":
-    //   PaintManager.colorIndex = 6
-    //   break
+    case "kiss":
+      PaintManager.colorIndex = 6
+      break
     default:
       break
   }
