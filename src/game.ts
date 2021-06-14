@@ -5,8 +5,8 @@ import { Guide } from "./guide"
 import { Bucket } from "./bucket"
 
 // UI
-// const canvas = new UICanvas()
-// const guide = new Guide(canvas)
+const canvas = new UICanvas()
+const guide = new Guide(canvas)
 
 // Bucket
 let bucket = new Bucket(new Transform())

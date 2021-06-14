@@ -11,12 +11,12 @@ export class Guide extends Entity {
 
     this.guideVisibleImage = new UIImage(canvas, new Texture("images/guide.png"))
     this.guideVisibleImage.sourceWidth = 640
-    this.guideVisibleImage.sourceHeight = 256
+    this.guideVisibleImage.sourceHeight = 360
     this.guideVisibleImage.positionX = 15
     this.guideVisibleImage.positionY = -128
     this.guideVisibleImage.hAlign = "left"
     this.guideVisibleImage.vAlign = "top"
-    this.guideVisibleImage.width = 224
-    this.guideVisibleImage.height = 89.6
+    this.guideVisibleImage.width = 256
+    this.guideVisibleImage.height = 144
   }
 }
