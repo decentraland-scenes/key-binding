@@ -1,7 +1,7 @@
 # Key Bindings
 _demo of key binding scene running in preview._
 
-![demo](https://github.com/decentraland-scenes/key-binding/blob/master/screenshots/key-binding.gif)
+![demo](https://github.com/decentraland-scenes/key-binding/blob/main/screenshots/key-binding.gif)
 
 ## Description
 Using emote events as key bindings for switching between multiple paint colors can be expanding for something like weapon switching. To view the scene, please visit [here](https://key-binding.vercel.app/).
