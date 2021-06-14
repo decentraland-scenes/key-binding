@@ -7,9 +7,9 @@ _demo of key binding scene running in preview._
 Using emote events as key bindings for switching between multiple paint colors, which can be expanded for something like weapon switching. To view the scene, please visit [here](https://key-binding.vercel.app/).
 
 ## Instructions
-* Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. 
-* To jump, press the <kbd>Space</kbd> key.
-* To place paint onto the ground, use the <kbd>Left Mouse Button</kbd>.
+* Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively
+* To jump, press the <kbd>Space</kbd> key
+* To place paint onto the ground, use the <kbd>Left Mouse Button</kbd>
 * Use the number keys <kbd>1</kbd> to <kbd>7</kbd> to switch between the various paint colors
 * Use the <kbd>E</kbd> key to switch to the next paint color
 * Use the <kbd>F</kbd> key to switch to the previous paint color
