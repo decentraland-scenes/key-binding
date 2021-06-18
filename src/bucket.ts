@@ -2,6 +2,7 @@
 // Only able to play through each animation once only so am now using a workaround where the
 // paint animations are separated and the child of the bucket (might be to do with the way animation is setup)
 
+// Paint shapes
 const bucketPaintShapes: GLTFShape[] = [
   new GLTFShape("models/bucketRedPaint.glb"),
   new GLTFShape("models/bucketOrangePaint.glb"),
@@ -36,7 +37,7 @@ export class Bucket extends Entity {
       bucketPaint.setParent(this)
       bucketPaints.push(bucketPaint)
     }
-    // Play  animation for red paint
+    // Play animation for red paint on load
     bucketPaints[0].getComponent(Animator).getClip("SwitchPaint").play(true)
   }
 

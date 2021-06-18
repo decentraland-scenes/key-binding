@@ -56,6 +56,7 @@ input.subscribe("BUTTON_DOWN", ActionButton.POINTER, true, (e) => {
   }
 })
 
+// Inputs
 input.subscribe("BUTTON_DOWN", ActionButton.PRIMARY, true, (e) => {
   switchSound.getComponent(AudioSource).playOnce()
   PaintManager.nextPaintColor()
@@ -68,6 +69,7 @@ input.subscribe("BUTTON_DOWN", ActionButton.SECONDARY, true, (e) => {
   bucket.switchPaintAnim(PaintManager.colorIndex)
 })
 
+// Listening for emote events to switch between paint colors
 onPlayerExpressionObservable.add(({ expressionId }) => {
   switch (expressionId) {
     case "wave":

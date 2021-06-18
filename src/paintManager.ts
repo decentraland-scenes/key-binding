@@ -1,4 +1,4 @@
-// Colors to cycle through (6 main colours)
+// Colors to cycle through (7 main colours)
 export const paintColors: GLTFShape[] = [
   new GLTFShape("models/redPaint.glb"),
   new GLTFShape("models/orangePaint.glb"),

@@ -1,3 +1,4 @@
+// Guide UI to display controls
 export class Guide extends Entity {
   public guideVisibleImage: UIImage
 
